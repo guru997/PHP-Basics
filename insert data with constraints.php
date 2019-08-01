@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title> Establish connection </title>
+    <title> Adding Constratints </title>
 <body>  
 
 <!--- PHP ---->
