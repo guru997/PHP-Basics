@@ -2,9 +2,9 @@
 <?php
     session_start();
  
-    if(isset($_SESSION['user']))
+    if(isset($_SESSION['uname']))
     {
-        echo ' WelCome ' . $_SESSION['user'].'<br/>';
+        echo ' WelCome ' . $_SESSION['uname'].'<br/>';
         echo '<a href="logout.php?logout">Logout</a>';
     }
     else
